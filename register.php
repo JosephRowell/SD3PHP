@@ -2,7 +2,10 @@
 	include_once("config.php");
 ?>
 
-<?php if( !(isset( $_POST['register'] ) ) ) { ?>
+<?php
+if( !(isset( $_POST['register'] ) ) ) {
+
+    ?>
 
 
 <!DOCTYPE html>
@@ -65,17 +68,17 @@
     </body>
 </html>
 
-<?php 
+<?php /*This php is continued from above */
 } else {
-	$usr = new Users;
-	$usr->storeFormValues( $_POST );
+	$user = new Users;
+	$user->storeFormValues( $_POST );
 	
 	if( $_POST['password'] == $_POST['conpassword'] ) {
-		echo $usr->register($_POST);	
+		echo $user->register($_POST);	
 	} else {
 		echo "Password and Confirm password not match";	
 		/*debug*/
-		echo "your email: " . $_POST['email'] . "your pass: " . $_POST['password'] . " conpass : " . $_POST['conpassword']; 
+		echo "your email: " . $_POST['email'];
 	}
 }
 ?>

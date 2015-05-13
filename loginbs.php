@@ -30,7 +30,7 @@
                                   <p class="help-block">(if this is a private computer)</p>
                               </div>
                               <button type="submit" class="btn btn-success btn-block">Login</button>
-                              <a href="/forgot/" class="btn btn-default btn-block">Help to login</a>
+
                           </form>
                       </div>
                   </div>
@@ -42,7 +42,7 @@
                           
                           <li><span class="fa fa-check text-success"></span> Free reservation</li>
                           <li><span class="fa fa-check text-success"></span> Get a room with your friends<small>(first come-first-serve)</small></li>
-                          <li><a href="/read-more/"><u>Read more</u></a></li>
+
                       </ul>
                       <p><a href="/new-customer/" class="btn btn-info btn-block">Yes please, register now!</a></p>
                   </div>
