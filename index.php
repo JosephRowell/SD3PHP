@@ -90,10 +90,10 @@
               <div class="row">
                   <div class="col-xs-6">
                       <div class="well">
-                          <form id="loginForm" method="POST" action="/login/" novalidate>
+                          <form id="loginForm" method="POST" action="" >
                               <div class="form-group">
                                   <label for="username" class="control-label">Username</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
+                                  <input type="email" class="form-control" id="email" name="username" value="" required="" title="Please enter your email" placeholder="example@gmail.com">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
@@ -123,7 +123,7 @@
                           <li><span class="fa fa-check text-success"></span> Get a room with your friends<small>(first come-first-serve)</small></li>
                           <li><a href="/read-more/"><u>Read more</u></a></li>
                       </ul>
-                      <p><a href="/new-customer/" class="btn btn-info btn-block">Yes please, register now!</a></p>
+                      <p><a href="register.php" class="btn btn-info btn-block">Yes please, register now!</a></p>
                   </div>
               </div>
           </div>
@@ -137,8 +137,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+   
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+   
   </body>
 </html>

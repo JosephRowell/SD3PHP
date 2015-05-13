@@ -14,8 +14,8 @@
     
     <body>
         <header id="head" >
-        	<p>Log in</p>
-        	<p><a href="register.php"><span id="register">Register</span></a></p>
+        	<p>Dorm Picker Registration</p>
+        	<p><a href="index.php#login-overlay"><span id="register">Login</span></a></p>
         </header>
         
         <div id="main-wrapper">
