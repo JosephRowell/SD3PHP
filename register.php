@@ -14,7 +14,7 @@
     
     <body>
         <header id="head" >
-        	<p>Dorm Picker Registration</p>
+        	<p><a href="index.php">Home</a> | Dorm Picker Registration</p>
         	<p><a href="index.php#login-overlay"><span id="register">Login</span></a></p>
         </header>
         

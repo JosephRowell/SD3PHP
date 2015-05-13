@@ -46,7 +46,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Marist</h3>
+              <h3 class="masthead-brand">Marist College</h3>
               <nav>
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="#">Home</a></li>

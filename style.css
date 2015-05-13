@@ -48,7 +48,7 @@ table {
 
 /* Styling the Header */
 header#head {
-	background-color:#333333;
+	
 	height: 50px;
 	width: 100%;
 }
@@ -59,7 +59,7 @@ header#head p {
 	color: #FFFFFF;
 	font-weight: bold;
 	padding: 20px;
-	background-color: #AC1B1A;
+	/* [disabled]background-color: #AC1B1A; */
 }
 
 header#head p #register {
@@ -193,15 +193,14 @@ input[type="submit"], input[type="button"] {
     -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
     box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
     color: #fff;
-    background: #ca5f34;
+    background:#349fca;
     font-weight: bold;
     -webkit-appearance: none;
 }
 
 input[type="submit"]:hover, input[type="submit"]:active, input[type="button"]:hover, input[type="button"]:active {
-    cursor: pointer;
-    background: #fff;
-    color: #ef7d50;
+	cursor: pointer;
+	background-color: #AC1B1A;
 }
 
 input[type="button"]:active, input[type="button"]:active {
